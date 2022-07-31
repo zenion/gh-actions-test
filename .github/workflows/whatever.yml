@@ -11,4 +11,4 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v3
     - name: Do the sick action
-      uses: zenion/gh-actions-test@v1
+      uses: zenion/gh-actions-test@v1.1
