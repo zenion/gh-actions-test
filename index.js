@@ -1,3 +1,6 @@
+const process = require("process");
+console.log(process.cwd());
+
 const glob = require("@actions/glob");
 const fs = require("fs");
 
