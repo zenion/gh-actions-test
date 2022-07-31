@@ -1,6 +1,28 @@
 {
+  "name": "actions-test",
+  "version": "1.0.0",
+  "main": "dist/index.js",
   "dependencies": {
     "@actions/core": "^1.9.0",
-    "@actions/github": "^5.0.3"
-  }
+    "@actions/github": "^5.0.3",
+    "@actions/glob": "^0.3.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.34.0"
+  },
+  "scripts": {
+    "build": "ncc build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zenion/gh-actions-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zenion/gh-actions-test/issues"
+  },
+  "homepage": "https://github.com/zenion/gh-actions-test#readme",
+  "description": ""
 }

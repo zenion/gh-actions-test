@@ -12,5 +12,3 @@ jobs:
       uses: actions/checkout@v3
     - name: Do the sick action
       uses: ./
-      with:
-        who-to-greet: "Josh"
