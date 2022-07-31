@@ -1,5 +1,5 @@
 name: 'Github Markdown Lookup'
 description: 'find the markdowns!'
 runs:
-  using: 'node12'
-  main: 'dist/index.js'
+  using: docker
+  image: Dockerfile
