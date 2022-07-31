@@ -10,7 +10,5 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
-      with:
-        path: gh-actions-test
     - name: Do the sick action
-      uses: ./
+      uses: zenion/gh-actions-test@v1
